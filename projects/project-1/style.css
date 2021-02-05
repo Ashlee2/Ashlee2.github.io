@@ -16,21 +16,28 @@ body {
   margin: 20px;
 }
 
+.grid .home {
+  background-color: #426db5;
+}
+
 .grid .one {
-  background-color: #993126;
+  background-color: #426db5;
 }
 
 .grid .two {
-  background-color: rgb(209, 113, 105);
+  background-color: #b1d9a3;
 }
 
 .grid .three {
-  background-color: rgba(28, 133, 153, 0.75);
+  background-color: #6dccdf;
 }
 
 .grid .four {
-  background-color: deeppink;
+  background-color: #f06594;
 }
+
+.grid .five {
+  background-color: #ee2a24;
 
 .parent {
   width: 80%;
