@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    background-color: rgba(238,42,36,.7);
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  
+  .grid {
+    display: flex;
+    color: black;
+  }
+  
+  .grid .logoname {
+    color:white
+  }
+  
+  .grid .home{
+    color:white
+  }
+  
+  .grid div {
+    flex: 1;
+    height: 200px;
+    background-color: #cccccc;
+    margin: 20px;
+  }
+  
+  .grid .home {
+    background-color: #6dccdf;
+  }
+  
+  .grid .one {
+    background-color: #426db5;
+  }
+  
+  .grid .two {
+    background-color: #b1d9a3;
+  }
+  
+  .grid .three {
+    background-color: #6dccdf;
+  }
+  
+  .grid .four {
+    background-color: #f06594;
+  }
+  
+  .grid .five {
+    background-color: #ee2a24;
+  }
+  .parent {
+    width: 90%;
+    margin: auto;
+    height: 820px;
+    position: relative;
+    border: 1px solid black;
+  }
+  
+  .parent .ts {
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+    background-color: rgba(132, 243, 29, 0.5);
+    width: 300px;
+    height: 300px;
+  }
+  .parent .tst {
+    position: absolute;
+    top: 0;
+    right:0;
+    background-color: rgba(59,85,166,.6);
+    width:350px;
+    height: 760px;
+  }
+  
+  .parent .m {
+    position: absolute;
+    top: 270px;
+    left: 190px;
+    background-color: rgba(243, 105, 63, 0.4);
+    font-size: 68px;
+  }
+  .parent .mt {
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+    background-color: rgba(132, 243, 29, 0.5);
+    width: 300px;
+    height: 300px;
+  }
+    .parent .c {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+  }
+  .parent .ct {
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+    background-color: rgba(132, 243, 29, 0.5);
+    width: 300px;
+    height: 300px;
+  }
+  .parent .b {
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+    background-color: rgba(132, 243, 29, 0.5);
+    width: 300px;
+    height: 300px;
+  }
+  .parent .b {
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+    background-color: rgba(132, 243, 29, 0.5);
+    width: 300px;
+    height: 300px;
+  }
