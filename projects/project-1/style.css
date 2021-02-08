@@ -1,36 +1,156 @@
+/*
+font-family: 'Merienda', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
 * {
   box-sizing: border-box;
-  background-color: rgba(66,109,181,.7);;
+}
+
+.homepage {
+background-color: rgba(66,109,181,.7);
+}
+
+.classics{
+background-color: rgba(177,217,163,.7);
+
+}
+
+.pixar{
+  background-color: rgba(109,204,233,.7);
+}
+
+.princesses{
+  background-color: rgba(240,101,148,.7);
+}
+
+.marvel{
+  background-color: rgba(238,42,36,.7);
 }
 
 body {
   margin: 0;
+}
+ .parentclassics, .parentpixar, .parentprincesses, .parentmarvel {
+   margin: 40%;
+ }
+
+p{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.parentclassics{
+  flex-wrap :wrap;
+}
+.parentclassics .oswald{
+display: flex;
+}
+.parentclassics .oswald .p{
+  flex: 1;
+  }
+.parentclassics .oswald .im{
+flex: 2;
+}
+.parentclassics .mickey{
+display: flex;
+}
+.parentclassics .mickey .im{
+flex: 2;
+}
+.parentclassics .mickey .p{
+flex: 1;
+}
+.parentclassics .dumbo{
+display: flex;
+}
+.parentclassics .dumbo .p{
+  flex: 1;
+  }
+.parentclassics .dumbo .im{
+flex: 2;
+}
+.parentclassics .pooh{
+display: flex;
+}
+.parentclassics .pooh .im{
+flex: 2;
+}
+.parentclassics .pooh .p{
+flex: 1;
+}
+.parentpixar{
+  display: flex;
+  flex-wrap :wrap;
+}
+.parentpixar .p{
+  flex: 1;
+  }
+.parentpixar .im{
+flex: 2;
+}
+
+.parentprincesses img{
+  max-width: 25%;
+  padding:10px
+}
+
+.parentprincesses {
+display: flex;
+flex-wrap: wrap; 
 }
 
 
 .grid {
   display: flex;
   color: black;
+  font-display: center;
+  font-family: 'merienda', cursive;
+  font-size: small;
 }
 
 .grid .logoname {
-  color:white
+  grid-column: span 2;
+  grid-row: span 2;
+  color:white;
+  font-family: 'merienda', cursive;
+  font-size: 50px;
 }
 
 .grid .home{
-  color:white
+  color:white;
+  font-family: 'merienda', cursive;
+  font-size: 100px;
+  
+
 }
 
 .grid div {
-  flex: 1;
-  height: 200px;
-  background-color: #cccccc;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: black;
+  height: 100px;
   margin: 20px;
+
 }
 
-.grid .home {
-  background-color: #426db5;
+.home .grid .home {
+  background-color: #426db5
 }
+
+.classics .grid .home{
+  background-color: #b1d9a3
+}
+
+.pixar .grid .home{
+  background-color: #6dccdf
+}
+
+.princesses .grid .home{
+  background-color: #f06594
+}
+
+.marvel .grid .home {
+  background-color: #ee2a24
+}
+
 
 .grid .one {
   background-color: #426db5;
@@ -53,20 +173,21 @@ body {
 }
 
 .parent {
+  flex: auto;
   width: 90%;
   margin: auto;
   height: 820px;
   position: relative;
-  border: 1px solid black;
-}
+  font-family: 'Montserrat Alternates', sans-serif;
+ }
 
 .parent .one {
-  position: absolute;
+  position: 80%;
   top: 0;
   right:0;
   background-color: rgba(59,85,166,.6);
-  width:350px;
-  height: 760px;
+  width:20%;
+  height: 50%;
 }
 
 .parent .two {
@@ -81,7 +202,6 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  border: 1px solid black;
   width: 300px;
   height: 300px;
 }
@@ -93,11 +213,3 @@ body {
   width: 300px;
   height: 300px;
 }
-
-.pg1{}
-
-.pg2 {}
-
-.pg3 {}
-
-.pg4 {}

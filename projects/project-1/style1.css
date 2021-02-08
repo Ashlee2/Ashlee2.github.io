@@ -2,6 +2,9 @@
     box-sizing: border-box;
     background-color: rgba(177,217,163,.7);
   }
+  <style>
+   @import url("https://use.typekit.net/nxw3umj.css");
+</style>
   
   body {
     margin: 0;
@@ -11,10 +14,17 @@
   .grid {
     display: flex;
     color: black;
+    font-family: peregroy-jf, sans-serif;
+    font-style: normal;
+    font-weight: 400;
   }
   
   .grid .logoname {
-    color:white
+    color:white;
+  
+    font-family: peregroy-jf, sans-serif;
+     font-style: normal;
+    font-weight: 400;
   }
   
   .grid .home{
@@ -30,6 +40,7 @@
   
   .grid .home {
     background-color: #6dccdf;
+    color: white;
   }
   
   .grid .one {
