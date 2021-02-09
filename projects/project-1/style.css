@@ -2,6 +2,8 @@
 font-family: 'Merienda', cursive;
 font-family: 'Montserrat Alternates', sans-serif;
 font-family: 'Open Sans', sans-serif;
+
+ <p style="text-align: right;">right-aligned</p>
 */
 * {
   box-sizing: border-box;
@@ -13,7 +15,6 @@ background-color: rgba(66,109,181,.7);
 
 .classics{
 background-color: rgba(177,217,163,.7);
-
 }
 
 .pixar{
@@ -99,13 +100,19 @@ flex-wrap: wrap;
 }
 
 
-.grid {
+.homepage .classics .princesses .pixar .marvel .grid .menu {
+  display: flex;
+  flex-wrap: wrap;
+  top:15%;
+  left:630px;
+  width:100px;
+  height:30px;
   display: flex;
   color: black;
   font-display: center;
-  font-family: 'merienda', cursive;
+  font-family: 'pxmerienda', cursive;
   font-size: small;
-}
+  }
 
 .grid .logoname {
   grid-column: span 2;
@@ -119,42 +126,43 @@ flex-wrap: wrap;
   color:white;
   font-family: 'merienda', cursive;
   font-size: 100px;
-  
-
+ 
 }
 
 .grid div {
 grid-template-columns: 1fr 1fr 1fr 1fr;
   color: black;
   height: 100px;
-  margin: 20px;
-
+  margin: 10px;
 }
 
-.home .grid .home {
-  background-color: #426db5
+.homepage .grid .home {
+  background-color: #426db5;
+  position: absolute;
+  top: 0;
+  left:630px;
+  width:50%;
+  height: 15%;
 }
 
 .classics .grid .home{
-  background-color: #b1d9a3
-}
+  background-color: #b1d9a3;
+ }
 
 .pixar .grid .home{
-  background-color: #6dccdf
+  background-color: #6dccdf;
 }
 
 .princesses .grid .home{
-  background-color: #f06594
+  background-color: #f06594;
 }
 
 .marvel .grid .home {
-  background-color: #ee2a24
+  background-color: #ee2a24;
 }
-
-
 .grid .one {
   background-color: #426db5;
-}
+  }
 
 .grid .two {
   background-color: #b1d9a3;
@@ -181,35 +189,20 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
   font-family: 'Montserrat Alternates', sans-serif;
  }
 
-.parent .one {
-  position: 80%;
-  top: 0;
-  right:0;
-  background-color: rgba(59,85,166,.6);
-  width:20%;
-  height: 50%;
-}
-
-.parent .two {
+.parenthomepage .one {
   position: absolute;
-  top: 270px;
-  left: 190px;
-  color: rgba(243, 105, 63, 0.4);
-  font-size: 68px;
+  top: 500px;
+  left:800px;
+  background-color: rgba(59,85,166,.6);
+  width:25%;
+  height: 80%;
 }
 
-.parent .three {
+
+.parenthomepage .three {
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 300px;
-  height: 300px;
-}
-.parent .four {
-  position: absolute;
-  bottom: 100px;
-  left: 150px;
-  background-color: rgba(132, 243, 29, 0.5);
+  left: 200px;
   width: 300px;
   height: 300px;
 }
