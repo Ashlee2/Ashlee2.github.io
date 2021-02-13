@@ -9,25 +9,83 @@ font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
 }
 
+header {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+
+header h1{
+  text-align: right
+}
+
+header .disney{
+  background-image:"image/adisney/highlightedbrightened.png";
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 500px;
+  width: 500px;
+  flex: 20%;
+  position: relative;
+}
+
+header .disney h2{
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+header .right{
+  flex: 80%;
+  position: relative;
+}
+
+header nav {
+  display:flex;
+  position:absolute;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+}
+
+header nav div {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+header nav .about {
+  border-right: 1px
+}
+
 .homepage {
 background-color: rgba(66,109,181,.7);
 }
 
-.classics{
+.classics {
 background-color: rgba(177,217,163,.7);
 }
 
-.pixar{
+.pixar {
   background-color: rgba(109,204,233,.7);
 }
 
-.princesses{
+.princesses {
   background-color: rgba(240,101,148,.7);
 }
 
 .marvel{
   background-color: rgba(238,42,36,.7);
 }
+
+
+.nav{
+
+}
+
 
 body {
   margin: 0;
