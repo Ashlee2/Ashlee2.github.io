@@ -1,0 +1,149 @@
+/*
+font-family: 'Merienda', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+ <p style="text-align: right;">right-aligned</p>
+*/
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  font-family: 'Merienda' cursive;
+}
+
+header h1{
+  color: white;
+  text-align: right;
+  font-family: 'Merienda', cursive;
+  font-size: 150px;
+}
+
+header .disney{
+  background-image:"image/adisney/highlightedbrightened.png";
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 500px;
+  width: 500px;
+  flex: 20%;
+  position: relative;
+}
+
+header .disney h2{
+  color: white;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+header .right{
+  flex: 80%;
+  position: relative;
+}
+
+header nav {
+  display:flex;
+  position:absolute;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+}
+
+header nav div {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  font-family: 'Merienda' cursive;
+  font-size: 30px;
+}
+
+header nav .home{
+  border-right: 1px
+}
+
+.homepage {
+background-color: rgba(66,109,181,.7);
+}
+
+.classics {
+background-color: rgba(177,217,163,.7);
+}
+
+.pixar {
+  background-color: rgba(109,204,233,.7);
+}
+
+.princesses {
+  background-color: rgba(240,101,148,.7);
+}
+
+.marvel{
+  background-color: rgba(238,42,36,.7);
+}
+
+
+
+nav .home {
+  background-color: #426db5;
+  }
+
+nav .classics {
+  background-color: #b1d9a3;
+}
+
+nav .pixar {
+  background-color: #6dccdf;
+}
+
+nav .princesses {
+  background-color: #f06594;
+}
+
+nav .marvel{
+  background-color: #ee2a24;
+}
+
+.oswald .mickey .dumbo .pooh .im {
+width:100%;
+height: auto;
+
+} 
+
+.oswald .mickey .dumbo .pooh .p {
+  font-size: 80px;
+
+}
+
+.parent {
+  flex: auto;
+  width: 90%;
+  margin: auto;
+  height: 820px;
+  position: relative;
+  font-family: 'Montserrat Alternates', sans-serif;
+ }
+
+.parenthomepage .one {
+  position: absolute;
+  top: 600px;
+  left:900px;
+  background-color: rgba(59,85,166,.6);
+  width:25%;
+  height: 70%;
+}
+
+
+.parenthomepage .three {
+  position: absolute;
+  bottom: 0;
+  left: 200px;
+  width: 300px;
+  height: 300px;
+}

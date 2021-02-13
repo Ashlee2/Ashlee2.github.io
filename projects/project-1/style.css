@@ -16,7 +16,8 @@ header {
 }
 
 header h1{
-  text-align: right
+  text-align: right;
+  color: white;
 }
 
 header .disney{
@@ -33,6 +34,7 @@ header .disney h2{
   position: absolute;
   bottom: 40px;
   right: 40px;
+  color: white;
 }
 
 header .right{
@@ -79,11 +81,6 @@ background-color: rgba(177,217,163,.7);
 
 .marvel{
   background-color: rgba(238,42,36,.7);
-}
-
-
-.nav{
-
 }
 
 
@@ -157,21 +154,6 @@ display: flex;
 flex-wrap: wrap; 
 }
 
-
-.homepage .classics .princesses .pixar .marvel .grid .menu {
-  display: flex;
-  flex-wrap: wrap;
-  top:15%;
-  left:630px;
-  width:100px;
-  height:30px;
-  display: flex;
-  color: black;
-  font-display: center;
-  font-family: 'pxmerienda', cursive;
-  font-size: small;
-  }
-
 .grid .logoname {
   grid-column: span 2;
   grid-row: span 2;
@@ -184,8 +166,7 @@ flex-wrap: wrap;
   color:white;
   font-family: 'merienda', cursive;
   font-size: 100px;
- 
-}
+ }
 
 .grid div {
 grid-template-columns: 1fr 1fr 1fr 1fr;
