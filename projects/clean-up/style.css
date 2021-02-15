@@ -168,7 +168,8 @@ height: auto;
 }
 
 .parentpixar .toystoryimg .flikimg .monstersimg {
-  flex: 40%
+  flex: 40%;
+  width: 100%;
 }
 
 .parentpixar .toystory .flikimg .monsters .carsimg {
@@ -195,4 +196,8 @@ height: auto;
 
 .parentpixar .cars .carsimg{ 
   top: 100px
+}
+
+.marvel .colors{
+  color: rgba (0,0,0..7)
 }
