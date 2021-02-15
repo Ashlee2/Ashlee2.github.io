@@ -35,9 +35,10 @@ header .disney{
 
 header .disney h2{
   color: white;
+  font-size: 60px;
   position: absolute;
-  bottom: 40px;
-  right: 40px;
+  top: 0px;
+  left: 30px;
 }
 
 header .right{
