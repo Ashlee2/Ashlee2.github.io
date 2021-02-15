@@ -173,10 +173,22 @@ height: auto;
 
 .parentpixar .toystory .flikimg .monsters .carsimg {
   position: absolute;
-left: 500px
+  left: 500px
 }
 
 .parentpixar .toystoryimg .flik .monstersimg .cars {
-position: absolute;
-left: 0
+  position: absolute;
+  left: 0
+}
+
+.parentpixar .toystory .toystoryimg{
+  top: 40px 
+}
+
+.parentpixar .flik .flikimg{
+  top: 60px
+}
+
+.parentpixar .monsters .monstersimg{
+  top: 80px
 }
