@@ -1,0 +1,81 @@
+/*
+font-family: 'Montserrat', sans-serif;
+ Montserrat wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,700
+*/
+
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+    background-color: antiquewhite;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+h1, h2, h3{
+    font-family: 'Montserrat',sans-serif;
+}
+
+h1{
+font-size: 72px;
+}
+
+h2{
+font-size: 50px;
+}
+
+h3{
+font-size: 30px;
+}
+
+.logoimage img{
+    width: 25%;
+}
+
+.button {
+    background-color: rgb(236, 34, 63);
+    border:5px solid black;
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 40px;
+    top:0px;
+    right:0px;
+}
+
+
+
+.heroimage { 
+    font-weight: 300px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.heroimage img {
+    width: 100%
+}
+
+.building, img {
+ width: 75%;
+}
+
+.contactbox{
+    background-color: rgb(236, 34, 63);
+}
+
+.midbox{
+    background-color: rgb(95,96,98);
+}
+
+.contactbox article{
+    background-color: rgb(209,211,212);
+    border: 2px solid black;
+}
+
+.sides img{
+width:20%
+}
