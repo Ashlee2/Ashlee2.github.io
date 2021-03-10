@@ -121,22 +121,22 @@ ul {
     width:50%;
 }
 
-.sandwiches {
+.sandwiches, .bowls, .plates{
     display: flex;
     flex-direction: row;
     width: 90%;
     margin:auto;
 }
 
-.sandwiches img{
+.sandwiches img, .bowls img, .plates img{
     flex: 1;
 }
 
-.sandwiches .sandwichlist{
+.sandwiches .sandwichlist, .bowls .bowllist, .plates .platelist{
     flex: 1;
 }
 
-.sandwichlist{
+.sandwichlist, .bowllist, .platelist{
     margin-left: 40px;
 }
 
