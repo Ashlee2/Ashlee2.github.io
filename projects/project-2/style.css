@@ -14,6 +14,15 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
+    width: 80%;
+    margin:auto;
+    }
+ nav, header {
+     width: none;
+ }
+
+img {
+    width: 100%;
 }
 
 h1, h2, h3{
@@ -21,20 +30,45 @@ h1, h2, h3{
 }
 
 h1{
-font-size: 72px;
+font-size: 60px;
 }
 
 h2{
-font-size: 50px;
+font-size: 48px;
 }
 
 h3{
-font-size: 30px;
+font-size: 21px;
+}
+
+h4 {
+    font-size: 15px;
 }
 
 .logoimage img{
+    margin: 0;
     width: 25%;
 }
+
+.inform {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin:auto;
+}
+
+.inform div {
+    flex:1;
+}
+
+.map img{
+    background-color: rgb(236, 34, 63);
+    padding: 40px
+}
+
+ul {
+    list-style-type: none;
+  }
 
 .button {
     background-color: rgb(236, 34, 63);
@@ -43,11 +77,30 @@ font-size: 30px;
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 40px;
+    padding: 10px;
+    position: absolute;
     top:0px;
     right:0px;
 }
 
 
+
+.buttons {
+    background-color: rgb(236, 34, 63);
+    border:5px solid black;
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.menubar{
+    width:90%;
+    padding: 20px;
+    left: 0;
+    position: absolute;
+}
 
 .heroimage { 
     font-weight: 300px;
@@ -56,11 +109,35 @@ font-size: 30px;
 }
 
 .heroimage img {
-    width: 100%
+        margin:0;
+        width: 100%;
 }
 
-.building, img {
- width: 75%;
+.building img {
+ width: 100%;
+}
+
+.menu img{
+    width:50%;
+}
+
+.sandwiches {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin:auto;
+}
+
+.sandwiches img{
+    flex: 1;
+}
+
+.sandwiches .sandwichlist{
+    flex: 1;
+}
+
+.sandwichlist{
+    margin-left: 40px;
 }
 
 .contactbox{
@@ -77,5 +154,5 @@ font-size: 30px;
 }
 
 .sides img{
-width:20%
+width:30%
 }
