@@ -21,6 +21,7 @@ header h1{
   text-align: right;
   font-family: 'Merienda', cursive;
   font-size: 150px;
+  margin:0;
 }
 
 header .disney{
@@ -43,15 +44,11 @@ header .disney h2{
 
 header .right{
   flex: 80%;
-  position: relative;
 }
 
 header nav {
   display:flex;
-  position:absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  align-items: flex-end;
 }
 
 header nav div {
@@ -137,12 +134,10 @@ height: auto;
  }
 
 .parenthomepage .one {
-  position: absolute;
-  top: 600px;
-  left:900px;
+  margin:auto;  
   background-color: rgba(59,85,166,.6);
-  width:25%;
-  height: 70%;
+  width:80%;
+  margin-left: 10%;
 }
 
 

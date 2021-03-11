@@ -14,15 +14,16 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
-    width: 80%;
     margin:auto;
     }
+
+
  nav, header {
      width: none;
  }
 
 img {
-    width: 100%;
+    width: 80%;
 }
 
 h1, h2, h3{
@@ -35,15 +36,17 @@ font-size: 60px;
 
 h2{
 font-size: 48px;
+text-align:center;
 }
 
 h3{
-font-size: 21px;
+font-size: 36px;
 }
 
 h4 {
-    font-size: 15px;
+    font-size: 24px;
 }
+
 
 .logoimage img{
     margin: 0;
@@ -62,6 +65,7 @@ h4 {
 }
 
 .map img{
+    width:80%;
     background-color: rgb(236, 34, 63);
     padding: 40px
 }
@@ -114,23 +118,28 @@ ul {
 }
 
 .building img {
- width: 100%;
+ width: 70%;
 }
 
 .menu img{
     width:50%;
 }
 
-.sandwiches, .bowls, .plates{
+.sandwiches, .bowls, .plates, .row1, .row2, .row3, .row4{
     display: flex;
     flex-direction: row;
     width: 90%;
     margin:auto;
 }
 
-.sandwiches img, .bowls img, .plates img{
+.sandwiches img, .bowls img, .plates img, .row1 img, .row2 img, .row3 img, .row4 img{
     flex: 1;
 }
+
+.row1 p, .row2 p, .row3 p, .row4 p{
+    flex: 1;
+}
+
 
 .sandwiches .sandwichlist, .bowls .bowllist, .plates .platelist{
     flex: 1;
@@ -156,3 +165,4 @@ ul {
 .sides img{
 width:30%
 }
+
