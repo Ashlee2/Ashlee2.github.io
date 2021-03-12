@@ -8,6 +8,8 @@ font-family: 'Open Sans', sans-serif;
 * {
   box-sizing: border-box;
 }
+ body{
+ font-size:24px;}
 
 header {
   display: flex;
@@ -30,7 +32,6 @@ header .disney{
   background-position: 50% 50%;
   height: 500px;
   width: 500px;
-  flex: 20%;
   position: relative;
 }
 
@@ -43,12 +44,12 @@ header .disney h2{
 }
 
 header .right{
-  flex: 80%;
+  flex: 90%;
 }
 
 header nav {
   display:flex;
-  align-items: 
+  align-items: right
 }
 
 header nav div {
@@ -68,14 +69,19 @@ header nav .home{
 
 .homepage {
 background-color: rgba(66,109,181,.7);
+font-size: 36px;
+width:100%;
+margin:auto
 }
 
 .classics {
 background-color: rgba(177,217,163,.7);
+font-size: 24px;
 }
 
 .pixar {
   background-color: rgba(109,204,233,.7);
+
 }
 
 .princesses {
@@ -123,6 +129,44 @@ height: auto;
   left: 50%;
 }
 
+ .mickey, .pooh {
+  display:flex;
+  margin:50px;
+  text-align : right ;
+}
+
+.oswald, .dumbo {
+  display:flex;
+  margin:50px;
+  text-align : left ;
+}
+
+.oswald{
+  flex:1;
+  flex-direction: row;
+  width: 90%;
+  margin:auto;
+}
+.mickey{
+  flex:1;
+  flex-direction: row;
+  width: 90%;
+  margin:auto;
+}
+.dumbo{
+  flex:1;
+  flex-direction: row;
+  width: 90%;
+  margin:auto;
+}
+.pooh{
+  flex:1;
+  flex-direction: row;
+  width: 90%;
+  margin:auto;
+}
+
+
 
 .parent {
   flex: auto;
@@ -137,16 +181,18 @@ height: auto;
   margin:auto;  
   background-color: rgba(59,85,166,.6);
   width:80%;
-  margin-left: 10%;
+  margin-left: 30%;
+  margin-right: 10%;
 }
 
 
 .parenthomepage .three {
-  position: absolute;
   bottom: 0;
-  left: 200px;
-  width: 300px;
-  height: 300px;
+  margin-left:20% ;
+}
+
+.three .img{
+  width:50%;
 }
 
 .toystory .flik .pixar .cars{
@@ -194,5 +240,77 @@ height: auto;
 }
 
 .marvel .colors{
-  color: rgba (0,0,0..7)
+  color: rgba (0,0,0,.7)
 }
+
+.marvel img{
+  margin:auto;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%
+}
+
+.parentmarvel .button{
+    background-color: rgb(240, 229, 231);
+    border:5px solid rgb(255, 255, 255);
+    color: #ee2a24;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 40px;
+    padding: 10px;
+    margin:auto;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%
+   }
+
+.parentprincesses img{
+  width:25%S;}
+
+.parentprincesses{
+  display:flex;
+  flex-direction: row;
+  width: 90%;
+  margin:auto;
+}
+
+.parentprincesses, .order1, .order2, .order3, .order4{
+  flex-direction: row;
+  width: 90%;
+  margin:auto;
+  flex:1;
+}
+
+/*
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+  color: white;
+}
+*/
