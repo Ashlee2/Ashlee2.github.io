@@ -117,7 +117,6 @@ nav .marvel{
 .parentclassics .oswald .mickey .dumbo .pooh .im {
 width:100%;
 height: auto;
-
 } 
 
 .parentclassics .oswald .mickey .dumbo .pooh p {
@@ -180,15 +179,15 @@ height: auto;
 .parenthomepage .one {
   margin:auto;  
   background-color: rgba(59,85,166,.6);
-  width:80%;
-  margin-left: 30%;
-  margin-right: 10%;
+  width:85%;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 
 
 .parenthomepage .three {
   bottom: 0;
-  margin-left:20% ;
+  margin-left: 5% ;
 }
 
 .three .img{
@@ -265,23 +264,72 @@ height: auto;
    }
 
 .parentprincesses img{
-  width:25%S;}
+  width:40%;
+  height: auto}
 
 .parentprincesses{
   display:flex;
-  flex-direction: row;
-  width: 90%;
-  margin:auto;
+  flex-direction: column;
 }
 
-.parentprincesses, .order1, .order2, .order3, .order4{
+.order1, .order2, .order3, .order4{
+  flex:1;
   flex-direction: row;
   width: 90%;
   margin:auto;
-  flex:1;
+
 }
 
 /*
+
+.image-text {
+  position: relative;
+  width: 300px;
+  margin: auto;
+}
+
+.image-text img {
+  width: 100%;
+}
+.image-text .text-hover {
+  display: block;
+  width: 300px;
+  height: auto;
+}
+
+.image-text .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+
+}
+
+.image-text:hover .overlay {
+  opacity: 1;
+}
+
+.image-text .text {
+  color: white;
+  font-family: arial;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+--------------------------------------
 .container {
   position: relative;
   width: 100%;
