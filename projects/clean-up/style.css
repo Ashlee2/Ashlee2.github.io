@@ -1,5 +1,6 @@
 /*
 font-family: 'Merienda', cursive;
+font-family: 'Montserrat', sans-serif;
 font-family: 'Montserrat Alternates', sans-serif;
 font-family: 'Open Sans', sans-serif;
 
@@ -9,19 +10,19 @@ font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
 }
  body{
- font-size:24px;}
+ }
 
 header {
   display: flex;
   width: 100vw;
   justify-content: space-around;
-  font-family: 'Merienda' cursive;
+  font-family: 'Merienda', cursive, 700;
 }
 
 header h1{
   color: white;
   text-align: right;
-  font-family: 'Merienda', cursive;
+  font-family: 'Merienda', cursive, 700;
   font-size: 150px;
   margin:0;
 }
@@ -45,11 +46,13 @@ header .disney h2{
 
 header .right{
   flex: 90%;
+  text-decoration: none;
 }
 
 header nav {
   display:flex;
-  align-items: right
+  align-items: right;
+ 
 }
 
 header nav div {
@@ -59,12 +62,13 @@ header nav div {
   border: 1px solid black;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
-  font-family: 'Merienda' cursive,400;
+  font-family: 'Merienda', cursive,400;
   font-size: 30px;
 }
 
 header nav .home{
-  border-right: 1px
+  border-right: 1px;
+  text-decoration: none;
 }
 
 .homepage {
@@ -117,8 +121,9 @@ width:100%;
 height: auto;
 } 
 
-.parentclassics .oswald .mickey .dumbo .pooh p {
-  font-size: 80px;
+.parentclassics .p {
+  font-family: 'Open Sans', sans-serif, 400;
+  font-size: 36px;
 
 }
 
@@ -199,56 +204,63 @@ height: auto;
 
 .parentpixar{
   display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat Alternates', sans-serif, 400;
+  font-family: 'Open Sans', sans-serif, 400;
+  font-size: 48px;
+  margin: auto;
+  width: 100%;
 }
 
 .parentpixar .toystory .flik .monsters{
   flex: 60%
 }
 
-.parentpixar .toystoryimg .flikimg .monstersimg {
-  flex: 40%;
+.parentpixar .toystoryimg .flikimg .monstersimg .carsimg {
+
   width: 100%;
+  height:auto;
+
 }
 
-.parentpixar .toystory .flikimg .monsters .carsimg {
-  position: absolute;
-  left: 500px
+.parentpixar .two, .four {
+  display:flex;
+  margin:50px;
+  text-align : right ;
 }
 
-.parentpixar .toystoryimg .flik .monstersimg .cars {
-  position: absolute;
-  left: 0
+.parentpixar .one, .three {
+  display:flex;
+  margin:50px;
+  text-align : left ;
 }
 
-.parentpixar .toystory .toystoryimg{
-  top: 40px 
+.parentpixar .one{
+  flex:1;
+  flex-direction: row;
+  width: 90%;
+  margin:auto;
+}
+.parentpixar .two{
+  flex:1;
+  flex-direction: row;
+  width: 90%;
+  margin:auto;
+}
+.parentpixar .three{
+  flex:1;
+  flex-direction: row;
+  width: 90%;
+  margin:auto;
 }
 
-.parentpixar .flik .flikimg{
-  top: 60px
+.parentpixar .four{
+  flex:1;
+  flex-direction: row;
+  width: 90%;
+  margin:auto;
 }
 
-.parentpixar .monsters .monstersimg{
-  top: 80px
-}
-
-.parentpixar .cars .carsimg{ 
-  top: 100px
-}
-
-.parentmarvel .button{
-    background-color: rgb(240, 229, 231);
-    border:5px solid rgb(255, 255, 255);
-    color: #ee2a24;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 40px;
-    padding: 10px;
-    margin:auto;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%
-   }
 
 .parentprincesses img{
   width:60%;
