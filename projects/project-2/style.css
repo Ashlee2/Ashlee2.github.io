@@ -23,7 +23,7 @@ body {
  }
 
 img {
-    width: 80%;
+    width: 100%;
 }
 
 h1, h2, h3{
@@ -31,20 +31,24 @@ h1, h2, h3{
 }
 
 h1{
-font-size: 60px;
+font-size: 72px;
+font-weight: 800;
 }
 
 h2{
 font-size: 48px;
 text-align:center;
+font-weight: 600;
 }
 
 h3{
 font-size: 36px;
+font-weight: 800;
 }
 
 h4 {
     font-size: 24px;
+    font-weight: 500;
 }
 
 
@@ -65,9 +69,10 @@ h4 {
 }
 
 .map img{
-    width:80%;
+    width:100%;
     background-color: rgb(236, 34, 63);
-    padding: 40px
+    padding: 50px;
+    margin-top:20px;
 }
 
 ul {
@@ -119,10 +124,13 @@ ul {
 
 .building img {
  width: 70%;
+ margin-left: 15%;
+ margin-right: 15%;
 }
 
 .menu img{
-    width:50%;
+    width:100%;
+    margin:auto
 }
 
 .sandwiches, .bowls, .plates, .row1, .row2, .row3, .row4{
@@ -163,21 +171,54 @@ ul {
 
 .midbox{
     background-color: rgb(95,96,98);
+    margin: 100px;
 }
 
 .contactbox article{
     background-color: rgb(209,211,212);
     border: 2px solid black;
+    margin: 40px
+}
+.contactbox{
+margin-left: 25%;
+margin-left: 25%;
+margin-top:20px;
+}
+
+
+.sides .row5{
+width:30%;
+margin:50%;
+margin-left: 25%;
+margin-right: 25%;
+margin-top: 0;
+margin-bottom: 0;
 }
 
 .sides img{
-width:30%
+    width: 30%;
+    margin:auto
+}
+.sides p{
+    margin: 20px;
+    font-size: 20px;
 }
 
+
 @media only screen and (min-width:768px){
+body{
+    font-size: 20px;
+}
+.map img{
+    width:100%;
+    background-color: rgb(236, 34, 63);
+    padding: 100px;
+    margin-top:20px;
+}
 
     img {
-        width: 80%;
+        width: 50%;
+        height:auto
     }
     
     h1, h2, h3{
@@ -185,25 +226,35 @@ width:30%
     }
     
     h1{
-    font-size:72px;
+    font-size:80px;
+    font-weight: 900;
     }
     
     h2{
-    font-size:60px;
+    font-size:65px;
+    font-weight: 700;
     text-align:center;
     }
     
     h3{
-    font-size: 48px;
+    font-size: 50px;
+    font-weight: 600;
     }
     
     h4 {
-        font-size: 36px;
+        font-size: 24px;
+        font-weight: 500;
     }
+
     .sandwiches, .bowls, .plates, .row1, .row2, .row3, .row4{
         display: flex;
         flex-direction: row;
         width: 90%;
+        margin:auto;
+    }
+
+    .sides img{
+        width: 100%;
         margin:auto;
     }
 }
