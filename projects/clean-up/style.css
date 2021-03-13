@@ -70,8 +70,6 @@ header nav .home{
 .homepage {
 background-color: rgba(66,109,181,.7);
 font-size: 36px;
-width:100%;
-margin:auto
 }
 
 .classics {
@@ -177,7 +175,7 @@ height: auto;
  }
 
 .parenthomepage .one {
-  margin:auto;  
+ 
   background-color: rgba(59,85,166,.6);
   width:85%;
   margin-left: 10%;
@@ -186,7 +184,7 @@ height: auto;
 
 
 .parenthomepage .three {
-  bottom: 0;
+  bottom: 25%;
   margin-left: 5% ;
 }
 
@@ -253,12 +251,14 @@ height: auto;
    }
 
 .parentprincesses img{
-  width:40%;
+  width:60%;
   height: auto}
 
 .parentprincesses{
   display:flex;
   flex-direction: column;
+  font-family: 'Montserrat';
+  font-size: 72px;
 }
 
 .order1, .order2, .order3, .order4{
