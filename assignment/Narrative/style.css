@@ -1,0 +1,22 @@
+/* Styles for your homework one assignment
+
+Rock Salt Regular 400
+font-family: 'Rock Salt', cursive;
+ */
+* {
+    box-sizing: border-box;}
+
+    body {
+        background-color: rgb(219, 248, 190);
+        font-family: 'Rock Salt', cursive;
+        color: #333;
+        font-size: 40px;
+        margin:10%;
+    
+    }
+
+    a {
+        color:rgb(88, 34, 2);
+    }
+
+  
