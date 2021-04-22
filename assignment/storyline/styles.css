@@ -45,3 +45,46 @@ font-family: 'Train One', cursive;
 .Smackdown{
     color:royalblue;
 }
+
+/*
+What Alanna used... 
+
+.spotlight {
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: -10;
+}
+
+img { width: 100%;}
+.grid {
+    display: grid;
+    grid-template-columns: 49% 1% 49%;
+}
+
+.grid .right, .grid .left {
+    padding: 60px;
+}
+
+.grid .left {
+    z-index: 2;
+}
+
+.jerico {
+    margin-right: -120px;
+    width: auto;
+}
+.wwf-logo {
+    margin-right: -120px;
+    width: auto;
+}
+.grid div.line {
+    z-index: -1;
+    background-color: white;
+}
+
+.up {
+    margin-top: -200px;
+}
+
+*/
