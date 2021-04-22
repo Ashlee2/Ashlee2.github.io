@@ -46,6 +46,116 @@ font-family: 'Train One', cursive;
     color:royalblue;
 }
 
+.spotlight {
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: -10;
+}
+
+img { width: 75%;}
+
+.seven img{
+    width:100%;
+}
+
+.grid .firstone img{
+    width:200%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 49% 1% 49%;
+}
+
+.grid .right, .grid .left {
+    padding: 60px;
+}
+
+.grid .left {
+    z-index: 2;
+}
+
+.jericho {
+    margin-right: -120px;
+    width: auto;
+}
+.wwf-logo {
+    margin-right: -120px;
+    width: auto;
+}
+.grid div.line {
+    z-index: -1;
+    background-color: white;
+}
+
+.grid .seven{
+    margin-left:25%;
+    margin-right:25%
+}
+
+.seven{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.grid .six .up .img{
+    position: center;
+}
+
+.up {
+    margin-top: -200px;
+}
+
+.down{
+    margin-top: 200px;
+}
+
+.three{
+    position: relative;
+}
+
+.three .spotlight-red {
+    position: absolute;
+    left:auto;
+    right:auto;
+    z-index: -1;
+}
+
+.five{
+    position: relative;
+}
+
+.five .spotlight-blue {
+    position: absolute;
+    left:auto;
+    right:auto;
+    z-index: -1;
+}
+
+.eight{
+    position: relative;
+}
+
+.eight .spotlight-yellow-left {
+    position: absolute;
+    left:auto;
+    right:auto;
+    z-index: -1;
+}
+
+.eight .spotlight-yellow-right {
+    position: absolute;
+    left:auto;
+    right:auto;
+    z-index: -1;
+}
+
+#draggable { width: 150px; height: 150px; padding: 0.5em; }
+
 /*
 What Alanna used... 
 

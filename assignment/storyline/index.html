@@ -19,7 +19,7 @@
         <h1>From WCW to AEW</h1>
     </header>
     <main>
-        <section class="grid-firstone">
+        <section class="grid firstone">
             <div class="left">
                 <p>Growing</p>
                 <p>Chris</p>
@@ -30,7 +30,7 @@
                 <img src="images/corazon-de-leon.png" class="jericho">
             </div>
         </section>
-        <section class="WCWlogo">
+        <section class="WCW logo">
             <img src="images/wcw-logo.png">
         </section>
         <section class="grid secondone">
@@ -42,7 +42,7 @@
                 <p></p>
             </div>
         </section>
-        <section class="grid thirdone">
+        <section class="grid third one">
             <div class="left"><img src="images/chris-jericho-wcw.png" class="jericho"></div>
 
         </section>
@@ -81,21 +81,28 @@
             <div class="right">
                 <img src="images/0_chris-jericho-wwe-ed.png">
             </div>
+        </section>
         <section class="grid five">
                 <div class="left">
-                    <div class="up">
+                    <div class="down">
                         <img src="images/chris-jericho-2004.png">
                     </div>
                 </div>
                 <div class="line">
                 </div>
-                <div class="Smackdown">
-                    <p>Smackdown</p>
+                <div class="right">
+                    <div class="up">
+                        <div class="Smackdown">
+                        <p>Smackdown</p>
+                        </div>
+                    </div>
                 </div>
         </section>
         <section class="grid six">
             <div class="left">
+                <div class="down">
                 <img src="images/chris-jericho-list.png">
+                </div>
             </div>
             <div class="line">
             </div>
@@ -105,9 +112,10 @@
                 </div>
             </div>
         </section>
-        <section class="grid seven">
-          <img src="images/All_Elite_Wrestling_Logo.jpg">
+        <section class="seven">
+            <img src="images/all_elite_wrestling_logo.jpg">
           <p>Chris Jericho has had a great career in Professional Wrestling. He continues to this day going strong after 30yrs as well as performing with his band Fozzy.</p>
+        </div>
         </section>
         <section class="grid eight">
             <div class="left">
@@ -116,14 +124,24 @@
             <div class="line">
             </div>
             <div class="right">
-                <div class="up">
                 <img src="images/chris-jericho-AEW2.png"> 
                 </div>
             </div>
         </section>
     </main>
 
+    <div id="draggable" class="ui-widget-content">
+        <img src="images/micophone.png"> 
+      </div>
+      
 
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+          $( "#draggable" ).draggable();
+        } );
+        </script>
   </body>
 </html>
