@@ -32,17 +32,23 @@ font-family: 'Train One', cursive;
        font-size: 50px;
    }
 
-.grid-firstone .left, .Raw, .Smackdown{
+.title, .raw, .smackdown{
     font-family:'Train One', cursive;
     font-size: 150px;
     color:lemonchiffon;
 } 
+.firstone .left {
+    position: relative;
+    margin-top: 500px;
+}
 
-.Raw{
+.raw{
+    position: relative;
+    margin-left: 700px;
     color: red;
 }
 
-.Smackdown{
+.smackdown{
     color:royalblue;
 }
 
@@ -55,11 +61,11 @@ font-family: 'Train One', cursive;
 
 img { width: 75%;}
 
-.seven img{
-    width:100%;
+.eight .right img, .seven img{
+    width: 100%;
 }
 
-.grid .firstone img{
+.title img{
     width:200%;
 }
 
@@ -80,6 +86,12 @@ img { width: 75%;}
     margin-right: -120px;
     width: auto;
 }
+
+.youth {
+    width: 100%;
+    margin-left: 140px;
+}
+
 .wwf-logo {
     margin-right: -120px;
     width: auto;
@@ -91,10 +103,10 @@ img { width: 75%;}
 
 .grid .seven{
     margin-left:25%;
-    margin-right:25%
+    margin-right:25%;
 }
 
-.seven{
+.seven, .wcwlogo, .thirdone{
     position: relative;
     display: block;
     margin-left: auto;
@@ -102,7 +114,7 @@ img { width: 75%;}
     width: 50%;
 }
 
-.grid .six .up .img{
+.grid .six .up .img, .wcwlogo .img {
     position: center;
 }
 
@@ -110,8 +122,20 @@ img { width: 75%;}
     margin-top: -200px;
 }
 
+.thirdone{
+    padding: 40px;
+}
+
+.six .right .up img{
+    margin-top: -500px;
+}
+
 .down{
     margin-top: 200px;
+}
+
+.eight .down{
+    margin-top: 100px;
 }
 
 .three{
