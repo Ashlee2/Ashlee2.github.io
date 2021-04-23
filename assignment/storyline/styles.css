@@ -38,7 +38,7 @@ font-family: 'Train One', cursive;
     color:lemonchiffon;
 } 
 
-.button{
+.readme{
     font-family: 'Train One', cursive;
     font-size: 50px;
 }
@@ -200,6 +200,33 @@ img { width: 75%;}
 }
 
 #draggable { width: 150px; height: 150px; padding: 0.5em; }
+
+.button1 .button2 .button3 .button4 .button5 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 50%;
+  }
+
+  .button1 {background-color: #f7f3c7;}
+  .button2 {background-color: #7802af;}
+  .button3 {background-color: red;}
+  .button4 {background-color: royalblue;}
+  .button5 {background-color: #afa84c;}
+
+  .button1 .button2 .button3 .button4 .button5 {
+    transition-duration: 0.4s;
+  }
+  
+  .button1 .button2 .button3 .button4 .button5 :hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
 
 /*
 What Alanna used... 
