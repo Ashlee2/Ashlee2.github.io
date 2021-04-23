@@ -44,12 +44,14 @@ font-family: 'Train One', cursive;
 
 .raw{
     position: relative;
-    margin-left: 700px;
+    margin-left: 300px;
+    margin-top: -100px;
     color: red;
 }
 
 .smackdown{
     color:royalblue;
+    margin-left: -350px;
 }
 
 .spotlight {
@@ -127,7 +129,7 @@ img { width: 75%;}
 }
 
 .six .right .up img{
-    margin-top: -500px;
+    margin-top: -200px;
 }
 
 .down{
