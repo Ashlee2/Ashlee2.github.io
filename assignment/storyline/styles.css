@@ -29,7 +29,16 @@ font-family: 'Train One', cursive;
    }
 
    h1{
-       font-size: 50px;
+       font-size: 76px;
+   }
+
+   header{
+       padding-top:50px;
+       padding-bottom: -150px;
+   }
+
+   .firstone{
+       padding-top: -150px;
    }
 
 .title, .raw, .smackdown{
@@ -201,31 +210,60 @@ img { width: 75%;}
 
 #draggable { width: 150px; height: 150px; padding: 0.5em; }
 
-.button1 .button2 .button3 .button4 .button5 {
+button {
     background-color: #4CAF50; /* Green */
     border: none;
+    font-family: 'Rock Salt', cursive;
     color: white;
-    padding: 15px 32px;
+    padding: 5px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 25px;
+    font-size: 15px;
     border-radius: 50%;
+    position: relative;
+    
   }
 
-  .button1 {background-color: #f7f3c7;}
+  .button1 {background-color: #f1e66b;}
   .button2 {background-color: #7802af;}
   .button3 {background-color: red;}
   .button4 {background-color: royalblue;}
   .button5 {background-color: #afa84c;}
 
+  .button1:hover {
+  background-color: #fff;
+  color: #f1e66b;
+  }
+
+    
+  .button2:hover {
+    background-color: #fff;
+    color: #7802af;
+  }
+
+  .button3:hover {
+    background-color: #fff;
+    color: red;
+  }
+
+  .button4:hover {
+    background-color: #fff;
+    color: royalblue;
+  }
+
+  .button5:hover {
+    background-color: #fff;
+    color: #afa84c;
+  }
+
   .button1 .button2 .button3 .button4 .button5 {
     transition-duration: 0.4s;
   }
-  
-  .button1 .button2 .button3 .button4 .button5 :hover {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
+
+  nav {
+    display: grid;
+    grid-template-columns: 50% 10% 10% 10% 10% 10%;
   }
 
 /*
