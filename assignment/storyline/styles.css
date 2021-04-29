@@ -30,15 +30,24 @@ font-family: 'Train One', cursive;
 
    h1{
        font-size: 76px;
-   }
+   }    
+
+   h2{
+       padding-top: -30px;
+      }
+
+    svg{
+        width:100%;
+        height: auto;
+    }
 
    header{
-       padding-top:50px;
-       padding-bottom: -150px;
+       margin-top:50px;
+       margin-bottom: -100px;
    }
 
    .firstone{
-       padding-top: -150px;
+       margin-top: -600px;
    }
 
 .title, .raw, .smackdown{
@@ -208,6 +217,11 @@ img { width: 75%;}
     z-index: -1;
 }
 
+.grid2 {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
 #draggable { width: 150px; height: 150px; padding: 0.5em; }
 
 button {
@@ -222,7 +236,8 @@ button {
     font-size: 15px;
     border-radius: 50%;
     position: relative;
-    
+    transition: all 500ms ease-in-out;
+    display: inline-block;
   }
 
   .button1 {background-color: #f1e66b;}
@@ -234,32 +249,34 @@ button {
   .button1:hover {
   background-color: #fff;
   color: #f1e66b;
+  transform: translate(4px, 4px);
   }
 
     
   .button2:hover {
     background-color: #fff;
     color: #7802af;
+    transform: translate(4px, 4px);
   }
 
   .button3:hover {
     background-color: #fff;
     color: red;
+    transform: translate(4px, 4px);
   }
 
   .button4:hover {
     background-color: #fff;
     color: royalblue;
+    transform: translate(4px, 4px);
   }
 
   .button5:hover {
     background-color: #fff;
     color: #afa84c;
+    transform: translate(4px, 4px);
   }
 
-  .button1 .button2 .button3 .button4 .button5 {
-    transition-duration: 0.4s;
-  }
 
   nav {
     display: grid;
