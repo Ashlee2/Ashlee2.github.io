@@ -145,7 +145,7 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 }
 
-.seven, .wcwlogo, .thirdone{
+.wcwlogo, .thirdone{
     position: relative;
     display: block;
     margin-left: auto;
