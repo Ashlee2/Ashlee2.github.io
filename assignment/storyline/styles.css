@@ -140,9 +140,9 @@ img { width: 75%;}
     background-color: white;
 }
 
-.grid .seven{
-    margin-left:25%;
-    margin-right:25%;
+.seven{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
 }
 
 .seven, .wcwlogo, .thirdone{
@@ -277,12 +277,25 @@ button {
     transform: translate(4px, 4px);
   }
 
+  .bluelight .cls-1{fill:url(#linear-gradient-blue);}
+  
+  .bluelight .cls-2{fill:url(#linear-gradient-blue-2);}
+  
+  .bluelight .cls-3{opacity:0.2;fill:url(#linear-gradient-blue-3);}
+  
+  .bluelight .cls-4{fill:#363436;}
+  
+  .bluelight .cls-5{fill:#21409a;}
+  
+  .bluelight .cls-6{fill:#393839;}
 
   nav {
     display: grid;
     grid-template-columns: 50% 10% 10% 10% 10% 10%;
   }
 
+
+  
 /*
 What Alanna used... 
 
