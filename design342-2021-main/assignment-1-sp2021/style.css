@@ -1,0 +1,52 @@
+
+.img{
+    width: 100%;
+}
+
+body{
+    background-color: #fcd5ce;
+}
+
+.main{
+    text-align: center;
+}
+/*fonts 
+font-family: 'Atma';
+font-family: 'Monsieur-La-Doulaise';*/
+
+h1{
+   font-size: 70px;
+   font-family: 'atma';
+   margin-bottom: 30px;
+}
+h2{
+    font-family: 'monsieur-la-doulaise';
+    color: #83c5be;
+}
+p{
+    font-family: 'monsieur-la-doulaise';
+    font-size: 39.5px;
+    margin: 20px;
+}
+a {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 800;
+    color: royalblue;
+    overflow: hidden;
+    background: linear-gradient(to right, #83c5be, #006d77 50%, #457b9d 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+a:hover {
+    background-position: 0 100%;
+}
+a{
+   text-align: left; 
+   padding: 30px;
+}

@@ -1,0 +1,186 @@
+html {
+    cursor: url(images/bug-64.png), auto;
+  }
+
+.main-image{
+    top: 0;
+    left: 0;
+    width: 1440px;
+    margin: auto;
+}
+body{
+    background-color: cadetblue;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img{
+    max-width: 100%;
+}
+.bush2 {
+    max-width: 1600px;
+}
+.bush3{
+    max-width: 1400px;
+}
+.bush4 {
+    max-width: 1800px;
+}
+.bush5{
+    max-width: 1700px;
+}
+.bush6 {
+    /* use in case 
+    max-width: 1400px; */
+    max-width: 2000px;
+}
+.bush7 {
+    max-width: 1500px;
+}
+.bush2, .bush3, .bush4, .bush5, .bush6, .bush7{
+    background-color: transparent;
+}
+/* hover feature */
+.bush2{
+    position: absolute;
+    margin-top: 800px;
+} 
+.bush2 .inner2{
+    position: absolute;
+    margin-top: -900px;
+    margin-right: 50px;
+    padding: 50px;
+    display: none;
+}
+.bush2:hover .inner2 {
+    display: block;
+}
+
+.bush3{
+    position: absolute;
+    /* maybe add
+    margin-top: 1170px; */
+    margin-top: 2300px;
+    margin-left: 100px;
+    max-width: 60%;
+}
+.bush3 .inner3{
+    position: absolute;
+    margin-top: -550px;
+    margin-left: -50px;
+    padding: 50px;
+    display: none;
+}
+.bush3:hover .inner3 {
+    display: block;
+}
+
+.bush4{
+    position: absolute;
+    margin-top: 3500px;
+    margin-left: -200px;
+    max-width: 80%;
+}
+.bush4 .inner4{
+    position: absolute;
+    margin-top: -670px;
+    margin-left: 90px;
+    display: none;
+}
+.bush4:hover .inner4 {
+    display: block;
+}
+
+.bush5{
+    position: absolute;
+    margin-top: 5300px;
+    margin-left: -50px;
+    max-width: 60%;
+}
+.bush5 .inner5{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 70px;
+    display: none;
+}
+.bush5:hover .inner5 {
+    display: block;
+}
+
+.bush6{
+    position: absolute;
+    margin-top: 7300px;
+    margin-left: -100px;
+    max-width: 70%;
+}
+.bush6 .inner6{
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 40px;
+    display: none;
+}
+.bush6:hover .inner6 {
+    display: block;
+}
+
+.bush7{
+    position: absolute;
+    margin-top: 9200px;
+    margin-left: -400px;
+    max-width: 70%;
+}
+.bush7 .inner7{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 30px;
+    display: none;
+}
+.bush7:hover .inner7 {
+    display: block;
+}
+/* done hover */
+
+
