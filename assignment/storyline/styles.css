@@ -16,10 +16,18 @@ font-family: 'Rock Salt', cursive;
 font-family: 'Zeyada', cursive;--
 font-family: 'Big Shoulders Inline Text', cursive;
 font-family: 'Train One', cursive;
+
+html {cursor: url(images/microphone.png), auto;
+      }
 */
+
 
 * {
     box-sizing: border-box;}
+
+    html {cursor: url(images/microphone.png), auto;
+    }
+
 
    body{
     background: black;
