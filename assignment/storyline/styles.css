@@ -75,7 +75,8 @@ font-family: 'Train One', cursive;
 
 .smackdown{
     color:royalblue;
-    margin-left: -350px;
+    display:flex;
+    justify-content: flex-end;
 }
 
 .spotlight {
