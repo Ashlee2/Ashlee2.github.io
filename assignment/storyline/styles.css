@@ -235,7 +235,7 @@ grid-template-columns: 1fr 1fr 1fr;
 #draggable { width: 150px; height: 150px; padding: 0.5em; }
 
 button {
-    background-color: #4CAF50; /* Green */
+    background-color: #ff7070; /* Green */
     border: none;
     font-family: 'Rock Salt', cursive;
     color: white;
@@ -249,6 +249,9 @@ button {
     transition: all 500ms ease-in-out;
     display: inline-block;
   }
+
+  button .readme {
+      border-radius: 0;}
 
   .button1 {background-color: #f1e66b;}
   .button2 {background-color: #7802af;}
