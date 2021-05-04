@@ -34,7 +34,7 @@
                 
                 <linearGradient id="linear-gradient-cream-2" x1="-2625.04" y1="-947.75" x2="-2560.24" y2="-991.02" gradientTransform="matrix(0.92, -0.13, -0.02, -0.96, 2413.01, -1228.94)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#faf9d7"/><stop offset="0.16" stop-color="#bbbaa1"/><stop offset="0.33" stop-color="#838270"/><stop offset="0.48" stop-color="#545448"/><stop offset="0.64" stop-color="#2f2f29"/><stop offset="0.78" stop-color="#151512"/><stop offset="0.9" stop-color="#060505"/><stop offset="1"/></linearGradient>
 
-                <linearGradient id="linear-gradient-cream-3" x1="-2308.9" y1="-2220.19" x2="-2243.6" y2="-2263.79" gradientTransform="matrix(1.05, 0.48, 0.1, -1.03, 2649.31, -1167.99)" xlink:href="#linear-gradient-2"/>
+                <linearGradient id="linear-gradient-cream-3" x1="-2308.9" y1="-2220.19" x2="-2243.6" y2="-2263.79" gradientTransform="matrix(1.05, 0.48, 0.1, -1.03, 2649.31, -1167.99)" xlink:href="#linear-gradient-cream-2"/>
             
             </defs>
                 <g id="cream">
@@ -126,8 +126,10 @@
             <div class="line"></div>
             <div class="right">
                 <img src="images/wwf_logo_1998.png">
-                <p>Chris Jerico made his debut in 2000<span id="dots">...</span><span id="more">against Dwayn the Rock Johnson. After making his Iconic verbal battle, first appearence, with The Rock because he still had a contract with World Championship Wrestling (WCW) so he had to wait months before making his debut match.</span></p>
-                <button class=readme onclick="myFuntion()" id="myBtn" >Read More...</button> 
+                <p>Chris Jerico made his debut in 2000<span id="dots" class="dots">...</span> <span id="more" class="more hide">against Dwayn the Rock Johnson. After making his Iconic verbal battle, first appearence, with The Rock because he still had a contract with World Championship Wrestling (WCW) so he had to wait months before making his debut match.</span></p>
+                <button class='readme' id="myBtn">Read More...</button>
+                <button class='readme hide'  id="myBtnLess">Read Less...</button> 
+                
             </div>
         </section>
         <section class="grid two">
@@ -308,6 +310,22 @@
             </div>
         </section>
     </main>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script>
+    $('#myBtn').click(function(){
+        $('.more').toggleClass('hide')
+        $('.dots').toggleClass('hide')
+        $('.readme').toggleClass('hide')
+    })
+    $('#myBtnLess').click(function(){
+        $('.more').toggleClass('hide')
+        $('.dots').toggleClass('hide')
+        $('.readme').toggleClass('hide')
+    })
+</script>
 
   </body>
 </html>
