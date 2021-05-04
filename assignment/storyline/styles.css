@@ -317,11 +317,11 @@ someone mentioned to use $(document) .click   (myFunction()) instead of .funtion
 }
 */
 
-  .creamlight .cls-1{opacity:0.2;fill:url(#linear-gradient);}
+  .creamlight .cls-1{opacity:0.2;fill:url(#linear-gradient-cream);}
   
-  .creamlight .cls-2{fill:url(#linear-gradient-2);}
+  .creamlight .cls-2{fill:url(#linear-gradient-cream-2);}
   
-  .creamlight .cls-3{fill:url(#linear-gradient-3);}
+  .creamlight .cls-3{fill:url(#linear-gradient-cream-3);}
   
   .creamlight .cls-4{fill:#363436;}
   
