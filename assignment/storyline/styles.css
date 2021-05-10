@@ -435,20 +435,17 @@ button.readme {
   fill: #393839;
 }
 
-.yellowlightleft .cls-1,
-.yellowlightright .cls-1 {
-  fill: url(#linear-gradient);
+.yellowlightleft .cls-1 {
+  fill: url(#linear-gradient-yellowleft);
 }
 
-.yellowlightleft .cls-2,
-.yellowlightright .cls-2 {
-  fill: url(#linear-gradient-2);
+.yellowlightleft .cls-2 {
+  fill: url(#linear-gradient-yellowleft-2);
 }
 
-.yellowlightleft .cls-3,
-.yellowlightright .cls-3 {
+.yellowlightleft .cls-3 {
   opacity: 0.2;
-  fill: url(#linear-gradient-3);
+  fill: url(#linear-gradient-yellowleft-3);
 }
 
 .yellowlightleft .cls-4,
@@ -466,20 +463,30 @@ button.readme {
   fill: #393839;
 }
 
-.purplelightleft .cls-1,
-.purplelightright .cls-1 {
-  fill: url(#linear-gradient);
+.yellowlightright .cls-1{
+  fill: url(#linear-gradient-yellowright)
 }
 
-.purplelightleft .cls-2,
-.purplelightright .cls-2 {
-  fill: url(#linear-gradient-2);
+.yellowlightright .cls-2 {
+  fill: url(#linear-gradient-yellowright-2)
 }
 
-.purplelightleft .cls-3,
-.purplelightright .cls-3 {
+.yellowlightright .cls-3 {
   opacity: 0.2;
-  fill: url(#linear-gradient-3);
+  fill: url(#linear-gradient-yellowright-3);
+}
+
+.purplelightleft .cls-1 {
+fill: url(#linear-gradient-purpleleft);
+}
+
+.purplelightleft .cls-2 {
+  fill: url(#linear-gradient-purpleleft-2);
+}
+
+.purplelightleft .cls-3 {
+  opacity: 0.2;
+  fill: url(#linear-gradient-purpleleft-3);
 }
 
 .purplelightleft .cls-4,
@@ -495,6 +502,19 @@ button.readme {
 .purplelightleft .cls-6,
 .purplelightright .cls-6 {
   fill: #393839;
+}
+
+.purplelightright .cls-1 {
+  fill: url(#linear-gradient-purpleright);
+}
+
+.purplelightright .cls-2 {
+  fill: url(#linear-gradient-purpleright-2);
+}
+
+.purplelightright .cls-3 {
+  opacity: 0.2;
+  fill: url(#linear-gradient-purpleright-3);
 }
 
 nav {
