@@ -1,0 +1,191 @@
+/*
+font-family: 'Merienda', cursive;
+font-family: 'Montserrat', sans-serif;
+
+Nav heads       21pt
+Quote home      36pt
+Headers         36pt
+body font       16pt
+info gallery    12pt
+
+Kopius Book
+font-family: kopius, serif;
+font-weight: 400;
+font-style: normal;
+
+Kopius Regular Italic
+font-family: kopius, serif;
+font-style: italic;
+
+Kopius Condensed Regular
+font-family: kopius-condensed, sans-serif;
+
+font-family: all-round-gothic, sans-serif;
+font-style: normal;
+font-weight: 200;
+
+font-family: kewl-script, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+*/
+
+body{
+    background: #fffbd0;
+    color:black;
+    font-family: 'all-round-gothic', sans-serif;
+    font-size: 12pt; 
+}
+
+nav{
+    font-family: 'kewl-script', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36pt;
+}
+
+
+.home{
+    background: #e8c1bb;
+    }
+
+
+.home .container {
+        position: relative;
+        text-align: center;
+        color:black;
+        font-weight: 700;
+        font-size: 24pt;
+      }
+
+.home .des{
+    text-align: left;
+    }
+
+.home .top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+    }
+.home .top-left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.home .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home .quote{
+    font-family: 'all-round-gothic', sans-serif;
+    font-size: 36pt;
+    font-style: italic;
+    color:antiquewhite
+
+}
+.home .mixedberrylines{
+        width: 100%;
+    }
+
+.home .hero{
+ width: 100%;
+ opacity: 0.5;
+}
+
+.home .grid{
+        display: grid;
+        grid-template-columns: 70% 30%;
+      }
+
+.about{
+    background: #f9edb2;
+}
+
+.about .container {
+    position: relative;
+    text-align: center;
+    color:black;
+    font-weight: 700;
+    font-size: 24pt;
+  }
+
+.about .des{
+text-align: left;
+}
+
+.about .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.about .top-left{
+position: absolute;
+top: 8px;
+left: 16px;
+}
+
+.about .grid{
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.about .img{
+    width:100%;
+}
+
+.purchase{
+    background: #c6cc9e;
+}
+
+.purchase .container {
+    position: relative;
+    text-align: center;
+    color:black;
+    font-weight: 700;
+    font-size: 24pt;
+  }
+
+.purchase .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.purchase .top-left{
+position: absolute;
+top: 8px;
+left: 16px;
+}
+
+.gallery{
+    background: #fdcfa1;
+}
+
+.gallery .container {
+    position: relative;
+    text-align: center;
+    color:black;
+    font-weight: 700;
+    font-size: 24pt;
+  }
+
+.gallery .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.gallery .top-left{
+position: absolute;
+top: 8px;
+left: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+label {
+    display:block;
+}
