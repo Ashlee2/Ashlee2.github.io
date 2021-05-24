@@ -278,6 +278,19 @@ left: 16px;
 .gallery .grid{
     display: grid;
     position: relative;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.gallery p{
+    background: rgb(252, 248, 210);
+    padding: 15%;
+}
+
+.gallery .row1, .gallery .row2 {
+    display: grid;
+    position: relative;
     grid-template-columns: 25% 25% 25% 25%;
 }
 
