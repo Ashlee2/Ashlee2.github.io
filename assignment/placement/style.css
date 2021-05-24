@@ -119,8 +119,7 @@ nav{
   }
 
 .about .grid .right .left{
-    border:1px;
-    border-color: black;
+        border:1px black solid;
 }
 
 .about .des{
@@ -150,8 +149,12 @@ text-align: left;
 .about .grid .left{
     padding: 20px;
 }
+.about .grid .main {
+    position: relative;
+}
 
 .about .main{
+    position: relative;
     padding-left: 25%;
     padding-right: 25%;
 }
@@ -236,8 +239,46 @@ top: 8px;
 left: 16px;
 }
 
+.purchase .grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 30px;
+
+}
+.purchase .display img, img{
+    position: relative;
+    width: 100%;
+}
+.views{
+    padding-left: 10px;
+}
+
+.views img{
+    position: relative;
+    width: 19%;
+    border: 2px black solid;
+}
+
+.nutrition{
+    background: rgb(242, 255, 229);
+    border:black 2px solid;
+    padding:10px;
+}
+
+.checkout{
+    background: rgb(242, 255, 229);
+    border:black 2px solid;
+    padding: 10px;
+}
+
 .gallery{
     background: #fdcfa1;
+}
+ 
+.gallery .grid{
+    display: grid;
+    position: relative;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 .gallery .container {
@@ -261,7 +302,11 @@ left: 16px;
 
 a {
     text-decoration: none;
+    color: rgb(247, 76, 76);
 }
+
+.purchase a {color: rgb(63, 131, 8);}
+
 label {
     display:block;
 }
