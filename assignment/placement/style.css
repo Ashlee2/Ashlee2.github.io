@@ -29,6 +29,9 @@ font-weight: 400;
 font-style: normal;
 
 */
+* {
+    box-sizing: border-box;
+  }
 
 body{
     background: #fffbd0;
@@ -49,6 +52,9 @@ nav{
     background: #e8c1bb;
     }
 
+.home img {
+    width:100%;
+}
 
 .home .container {
         position: relative;
@@ -81,7 +87,7 @@ nav{
 
 .home .quote{
     font-family: 'all-round-gothic', sans-serif;
-    font-size: 36pt;
+    font-size: 34pt;
     font-style: italic;
     color:antiquewhite
 
@@ -92,7 +98,7 @@ nav{
 
 .home .hero{
  width: 100%;
- opacity: 0.5;
+ opacity: 0.25;
 }
 
 .home .grid{
@@ -112,6 +118,11 @@ nav{
     font-size: 24pt;
   }
 
+.about .grid .right .left{
+    border:1px;
+    border-color: black;
+}
+
 .about .des{
 text-align: left;
 }
@@ -122,20 +133,85 @@ text-align: left;
     right: 16px;
 }
 .about .top-left{
-position: absolute;
-top: 8px;
-left: 16px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
 
-.about .grid{
-    position: relative;
+.about .grid, .grid2{
     display: grid;
-    grid-template-columns: 50% 50%;
+}
+
+.about .grid2{
+    grid-template-columns:50% 50%;
+}
+
+.about .grid .right,
+.about .grid .left{
+    padding: 20px;
+}
+
+.about .main{
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .about .img{
-    width:100%;
+    width:200%;
 }
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 500px;
+    height: 280px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back-1,.flip-card-back-2,.flip-card-back-3, .flip-card-back-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back-1,.flip-card-back-2,.flip-card-back-3, .flip-card-back-4 {
+    background-color: rgb(252, 248, 210);
+    color: black;
+    transform: rotateY(180deg);
+  }
+
+  h1 {
+    font-family: 'kewl-script', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
 
 .purchase{
     background: #c6cc9e;
