@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;}
+
+    .svg {
+        width: 100%;
+        height:auto;
+    }
+
+    .svg path{
+        fill:#000;
+    }
+
+    .flames path{
+        fill:#ff0000;
+    }
+
+    @keyframes ufo-building-float {
+        0%      {transform: translate(0)}
+        25%     {transform: translate(-25px)}
+        75%     {transform: translate(25px)}
+        100%    {transform: translate(0)}
+    }
+
+    .ufo-building-float {
+        animation: ufo-building-float 5s linear infinite;
+    }
+
+    @keyframes bigufo {
+        0%        {opacity: 0}
+        15%, 70%  {opacity: 1}
+        85%, 100% {opacity: 0}
+    }
+
+    @keyframes smallufo {
+        0%, 10%   {opacity: 0}
+        25%, 85%  {opacity: 1}
+        100%      {opacity: 0}
+    } 
+
+    .bigufo {
+        animation:bigufo 5s ease infinite;
+    }
+
+    .smallufo {
+        animation:smallufo 5s ease infinite;
+    }
+
+    @keyframes lights{
+        0%          {fill:#000}
+        20%         {fill: #fb4371}
+        40%, 100%   {fill:#000}
+    }
+
+    .lights{
+        animation: lights 2.5s ease infinite;
+    }
+
+    .light2 {animation-delay: .2s}
+    .light3 {animation-delay: .4s}
+    .light4 {animation-delay: .6s}
+    .light5 {animation-delay: .8s}
+
+    @keyframes flames{
+        0%   {transform: scale(1,1)}
+        50%  {transform: scale(1, 1.1)}
+        100% {transform: scale(1,1)}
+    }
+
+    .flames path{
+        fill: #d84437;
+        animation: flames .2s ease infinite;
+        transform-origin: center top;
+    }
