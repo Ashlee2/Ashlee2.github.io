@@ -242,7 +242,7 @@ left: 16px;
 .purchase .grid{
     display: grid;
     grid-template-columns: 50% 50%;
-    padding-top: 100px;
+    padding-top: 30px;
 
 }
 .purchase .display img, img{
