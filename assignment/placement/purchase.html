@@ -32,17 +32,19 @@
     </nav>
     <main class="grid">
         <section class="display">
-            <img src="images/front.jpg">
+            <img class= "product1" src="images/front.png">
         </section>
         <section class="purchases">
             <div class="views">
-                <img src="images/front.png">
-                <img src="images/turn1.png">
-                <img src="images/turn2.png">
-                <img src="images/turn3.png">
-                <img src="images/turnlast.png">
+                <img class="view1" src="images/front.png">
+                <img class="view2" src="images/turn1.png">
+                <img class="view3" src="images/turn2.png">
+                <img class="view4" src="images/turn3.png">
+                <img class="view5" src="images/turnlast.png">
 
             </div>
+            
+
             <p></p>
             <div class="nutrition">
                 <p>
@@ -59,7 +61,7 @@
             <p></p>
             <div class="checkout">
                 <div class= 'totalupdate'>
-                    Price: $<span class= "itemprice">9.99</span>
+                    Price: $<span class= "itemprice">3.99</span>
                     <form id="priceUpdateForm">
                         <label for="quantity">Quantity: <input value="1"  class="quantity" type="text" name="quantity"></label>
                         <label for="total">Total: <input type="text" class="total" name="total">
@@ -91,6 +93,31 @@
     $('.total').val(newTotal)
     })
     </script>
+
+    <script>
+    $('.view1').click(function(){
+        $('.product').attr('src','images/front.png')
+    })
+    $('.view2').click(function(){
+        $('.product').attr('src','images/turn1.png')
+    })
+    $('.view3').click(function(){
+        $('.product').attr('src','images/turn2.png')
+    })
+    $('.view4').click(function(){
+        $('.product').attr('src','images/turn3.png')
+    })
+    $('.view5').click(function(){
+        $('.product').attr('src','images/turnlast.png')
+    })
+    </script>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+
 
 </body>
 
