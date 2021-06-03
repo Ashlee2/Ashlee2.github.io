@@ -56,6 +56,10 @@ nav{
     width:100%;
 }
 
+.home .desimg{
+    width: 150%;
+}
+
 .home .container {
         position: relative;
         text-align: center;
@@ -66,13 +70,15 @@ nav{
 
 .home .des{
     text-align: left;
+    margin-top: 100px;
     }
 
 .home .top-right {
         position: absolute;
         top: 8px;
         right: 16px;
-    }
+            }
+
 .home .top-left{
     position: absolute;
     top: 8px;
@@ -83,6 +89,7 @@ nav{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 80%;
 }
 
 .home .quote{
@@ -143,6 +150,10 @@ text-align: left;
 
 .about .grid2{
     grid-template-columns:50% 50%;
+}
+
+.about, .grid-one, .grid-two, .grid-three, .grid-four{
+    grid-template-rows: 50% 50%;
 }
 
 .about .grid .right,
@@ -218,6 +229,25 @@ text-align: left;
 
 .purchase{
     background: #c6cc9e;
+}
+
+.purchase .title{
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+.purchase h1{
+    font-family: 'kewl-script', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+}
+
+.purchase p1{
+    font-family: 'all-round-gothic', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px
 }
 
 .purchase .container {
