@@ -64,8 +64,8 @@ nav{
         position: relative;
         text-align: center;
         color:black;
-        font-weight: 700;
-        font-size: 24pt;
+        font-weight: 600;
+        font-size: 45px;
       }
 
 .home .des{
@@ -247,7 +247,8 @@ text-align: left;
     font-family: 'all-round-gothic', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 24px
+    font-size: 24px;
+    margin-top: 10px;
 }
 
 .purchase .container {
