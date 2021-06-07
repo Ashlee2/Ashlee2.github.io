@@ -231,9 +231,13 @@ text-align: left;
     background: #c6cc9e;
 }
 
+.purchase .product1{
+    border: 2px black solid;
+}
+
 .purchase .title{
     margin-top: -30px;
-    margin-bottom: -30px;
+    margin-bottom: -20px;
 }
 
 .purchase h1{
@@ -250,6 +254,7 @@ text-align: left;
     font-size: 24px;
     margin-top: 10px;
 }
+
 
 .purchase .container {
     position: relative;
@@ -274,20 +279,48 @@ left: 16px;
     display: grid;
     grid-template-columns: 50% 50%;
     padding-top: 30px;
-
 }
+.purchase .display {
+    padding: 25px;
+}
+
+.purchase .nutrition, .purchase .checkout {
+    padding: 30px;
+}
+
 .purchase .display img, img{
     position: relative;
     width: 100%;
 }
+.purchase .title{
+    margin-bottom: -30px;
+    margin-left: 100px;
+}
+
+.purchase .sub{
+    margin-top: -125px;
+    margin-bottom: -30px;
+    margin-left: 200px;
+}
+
+.purchase .closimg{
+    position: relative;
+    width: 25%;
+    position: right;
+}
+
 .views{
     padding-left: 10px;
 }
 
 .views img{
     position: relative;
-    width: 19%;
+    width: 16%;
     border: 2px black solid;
+}
+
+.view6{
+
 }
 
 .nutrition{

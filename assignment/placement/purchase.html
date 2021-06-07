@@ -16,7 +16,7 @@
 <body class= "purchase">
     <nav>
         <section class="container">
-            <img class= "mixedberrylines" src="images/linework-02.png">
+            <img class= "mixedberrylines" src="images/linework-02-01.png">
             <div class="top-left">
                 <img src="images/linework-01.png">
             </div>
@@ -30,7 +30,8 @@
             </div>
         </section>
     </nav>
-    <h1 class="title">Gooseberry Lemonade</h1>
+    <h1 class="title">Gooseberry</h1>
+     <h1 class="sub">Lemonade</h1>
     <main class="grid">
         <section class="display">
             <img class= "product1" src="images/front.png">
@@ -42,6 +43,7 @@
                 <img class="view3" src="images/turn2.png">
                 <img class="view4" src="images/turn3.png">
                 <img class="view5" src="images/turnlast.png">
+                <img class="view6" src="images/ingredients.jpg">
 
             </div>
             
@@ -71,8 +73,10 @@
                         </label>
                         <button class="update">Update Total</button>
                     </form>
-                    </div>
+                </div>
             </div>
+            <p></p>
+            <img class="closimg" src="images/linework-04.png">
         </section>
     </main>
 
@@ -112,6 +116,9 @@
     })
     $('.view5').click(function(){
         $('.product1').attr('src','images/turnlast.png')
+    })
+    $('.view6').click(function(){
+        $('.product1').attr('src','images/ingredients.jpg')
     })
     </script>
 
